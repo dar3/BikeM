@@ -6,22 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="104dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="212dp"
+        android:text="@string/heading_2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/btn3_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button3"
         android:layout_width="160dp"
         android:layout_height="57dp"
         android:layout_marginTop="28dp"
-        android:text="Rozkłady jazdy"
+        android:text="@string/btn1_text"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -29,7 +42,7 @@
         android:layout_width="160dp"
         android:layout_height="57dp"
         android:layout_marginTop="84dp"
-        android:text="Pozycje Autobusów"
+        android:text="@string/btn2_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,9 +52,29 @@
         android:layout_height="30dp"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
-        android:text="Autobusy"
+        android:text="@string/heading_1"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="160dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="246dp"
+        android:text="@string/btn4_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="160dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="416dp"
+        android:text="@string/btn5_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
