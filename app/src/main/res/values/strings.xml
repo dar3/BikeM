@@ -2,9 +2,13 @@
     <string name="app_name">BikeM</string>
     <string name="heading_1">Autobusy</string>
     <string name="heading_2">Rowery</string>
+    <string name="heading_3">Inne</string>
     <string name="btn1_text">Rozkłady jazdy</string>
     <string name="btn2_text">Pozycje Autobusów</string>
     <string name="btn3_text">Opóźnienia</string>
     <string name="btn4_text">Ilość rowerów na stacji</string>
     <string name="btn5_text">Klimatyzacja</string>
+    <string name="btn6_text">Numery boczne</string>
+    <string name="btn7_text">Bilety</string>
+    <string name="btn8_text">Niskopodłogowe</string>
 </resources>
