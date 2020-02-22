@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonDelay"
         android:layout_width="160dp"
         android:layout_height="57dp"
         android:layout_marginTop="140dp"
@@ -39,7 +39,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonSchedule"
         android:layout_width="160dp"
         android:layout_height="57dp"
         android:layout_marginTop="28dp"
