@@ -11,6 +11,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     private Button buttonDelay;
     private Button buttonSchedule;
+    private Button buttonPositions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
                 openActivitySchedule();
             }
         });
+
+        buttonPositions = (Button) findViewById(R.id.buttonPositions);
+        buttonPositions.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityPositions();
+            }
+        });
     }
 
     public void openActivityDelays() {
@@ -41,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void openActivitySchedule() {
         Intent intent = new Intent(this, Timetable.class);
+        startActivity(intent);
+    }
+    public void openActivityPositions(){
+        Intent intent = new Intent (this, BusPositions.class);
         startActivity(intent);
     }
 }
