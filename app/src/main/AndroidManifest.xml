@@ -12,6 +12,11 @@
         <activity android:name=".BusPositions"></activity>
         <activity android:name=".Timetable" />
         <activity android:name=".Delays" />
+        <activity android:name=".BikesInStation" />
+        <activity android:name=".AirConditioning" />
+        <activity android:name=".SideNumbers" />
+        <activity android:name=".Tickets" />
+        <activity android:name=".LowFloor" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
