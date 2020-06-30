@@ -1,4 +1,4 @@
-It's my first Android app made in Android Studio using Java.
+It's my first Android app made in **Android Studio** using **Java.**
 
 It was made to help people move across the city using public transport.
 
