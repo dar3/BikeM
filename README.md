@@ -4,6 +4,6 @@ It was made to help people move across the city using public transport. Somethin
 
 Not all buttons work, because i didn't receive all the information from transporting company.
 
-In the future (when I will have more time :p) i am planning to improve it and make all of the buttons show proper information, so it's beta version.
+In the future (when I will have more time :p) I want to improve it and make all of the buttons show proper information. It's beta version for now.
 
 You can see how it looks here:  https://www.youtube.com/watch?v=AAgYVo15AMk
